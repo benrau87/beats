@@ -20,7 +20,8 @@ input:
 
     # cpu usage per core, by default is false
     cpu_per_core: false
- 
+tags: ["filebeat"]
+
 output:
   logstash:
     hosts: ["localhost:5044"]
